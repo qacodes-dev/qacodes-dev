@@ -61,14 +61,46 @@ flowchart LR
 
 This GitHub organisation hosts hands-on repositories connected to the learning content on **qa.codes**.
 
+**Web & UI automation**
+
 | Repository | Focus | Stack |
 |---|---|---|
 | [`qacodes-playwright-typescript`](https://github.com/qacodes-dev/qacodes-playwright-typescript) | Modern E2E web automation | Playwright, TypeScript |
 | [`qacodes-cypress-typescript`](https://github.com/qacodes-dev/qacodes-cypress-typescript) | Frontend E2E automation | Cypress, TypeScript |
 | [`qacodes-selenium-java`](https://github.com/qacodes-dev/qacodes-selenium-java) | Selenium automation framework | Selenium WebDriver, Java |
-| [`qacodes-rest-assured-api-automation`](https://github.com/qacodes-dev/qacodes-rest-assured-api-automation) | API automation testing | REST Assured, Java |
-| [`qacodes-karate-api-automation`](https://github.com/qacodes-dev/qacodes-karate-api-automation) | BDD-style API testing | Karate |
+| [`qacodes-webdriverio-typescript`](https://github.com/qacodes-dev/qacodes-webdriverio-typescript) | E2E automation with Allure reporting | WebdriverIO, TypeScript |
+| [`qacodes-playwright-python-pytest`](https://github.com/qacodes-dev/qacodes-playwright-python-pytest) | E2E automation with pytest | Playwright, Python, pytest |
+| [`qacodes-robot-framework-selenium`](https://github.com/qacodes-dev/qacodes-robot-framework-selenium) | Keyword-driven UI automation | Robot Framework, SeleniumLibrary |
+| [`qacodes-playwright-framework-template`](https://github.com/qacodes-dev/qacodes-playwright-framework-template) | Production-structured framework template | Playwright, TypeScript |
+
+**BDD**
+
+| Repository | Focus | Stack |
+|---|---|---|
 | [`qacodes-playwright-typescript-cucumber-bdd`](https://github.com/qacodes-dev/qacodes-playwright-typescript-cucumber-bdd) | BDD-style UI automation | Playwright, TypeScript, Cucumber |
+| [`qacodes-karate-api-automation`](https://github.com/qacodes-dev/qacodes-karate-api-automation) | BDD-style API testing | Karate |
+
+**API & contract testing**
+
+| Repository | Focus | Stack |
+|---|---|---|
+| [`qacodes-rest-assured-api-automation`](https://github.com/qacodes-dev/qacodes-rest-assured-api-automation) | API automation testing | REST Assured, Java |
+| [`qacodes-postman-newman-api`](https://github.com/qacodes-dev/qacodes-postman-newman-api) | API testing in CI with Newman | Postman, Newman |
+| [`qacodes-bruno-api-collection`](https://github.com/qacodes-dev/qacodes-bruno-api-collection) | Git-native API testing | Bruno |
+| [`qacodes-pact-contract-testing`](https://github.com/qacodes-dev/qacodes-pact-contract-testing) | Consumer-driven contract testing | Pact, TypeScript |
+
+**Performance & load**
+
+| Repository | Focus | Stack |
+|---|---|---|
+| [`qacodes-k6-performance-testing`](https://github.com/qacodes-dev/qacodes-k6-performance-testing) | Performance & load testing | k6, JavaScript |
+| [`qacodes-gatling-load-testing`](https://github.com/qacodes-dev/qacodes-gatling-load-testing) | Load & stress testing | Gatling, Scala |
+
+**CI / CD**
+
+| Repository | Focus | Stack |
+|---|---|---|
+| [`qacodes-github-actions-ci-pipeline`](https://github.com/qacodes-dev/qacodes-github-actions-ci-pipeline) | Reference CI pipeline for test automation | GitHub Actions |
 
 ---
 
@@ -79,6 +111,9 @@ This GitHub organisation hosts hands-on repositories connected to the learning c
 | Web automation | Locators, assertions, page objects, fixtures, reusable helpers |
 | API testing | Requests, responses, status codes, schemas, authentication, negative scenarios |
 | BDD testing | Feature files, scenarios, step definitions, readable test flows |
+| Contract testing | Consumer contracts, provider verification, brokers, can-i-deploy gates |
+| Performance testing | Load profiles, virtual users, thresholds, latency percentiles, CI reports |
+| CI/CD | Pipelines, matrix runs, artifacts, HTML reports, flaky-test retries |
 | Framework design | Folder structure, config, test data, reporting, maintainability |
 | Debugging | Screenshots, traces, logs, failed assertions, flaky test investigation |
 | Portfolio building | Realistic QA projects you can explain in interviews |
@@ -143,6 +178,11 @@ flowchart TD
 | Learn API automation with Java | [`qacodes-rest-assured-api-automation`](https://github.com/qacodes-dev/qacodes-rest-assured-api-automation) |
 | Learn BDD-style API testing | [`qacodes-karate-api-automation`](https://github.com/qacodes-dev/qacodes-karate-api-automation) |
 | Combine Playwright with Cucumber | [`qacodes-playwright-typescript-cucumber-bdd`](https://github.com/qacodes-dev/qacodes-playwright-typescript-cucumber-bdd) |
+| Run Postman collections in CI | [`qacodes-postman-newman-api`](https://github.com/qacodes-dev/qacodes-postman-newman-api) |
+| Try consumer-driven contract testing | [`qacodes-pact-contract-testing`](https://github.com/qacodes-dev/qacodes-pact-contract-testing) |
+| Run performance & load tests | [`qacodes-k6-performance-testing`](https://github.com/qacodes-dev/qacodes-k6-performance-testing) |
+| Load-test with Gatling | [`qacodes-gatling-load-testing`](https://github.com/qacodes-dev/qacodes-gatling-load-testing) |
+| Build a CI pipeline for automated tests | [`qacodes-github-actions-ci-pipeline`](https://github.com/qacodes-dev/qacodes-github-actions-ci-pipeline) |
 
 ---
 
