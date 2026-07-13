@@ -104,6 +104,38 @@ This GitHub organisation hosts hands-on repositories connected to the learning c
 
 ---
 
+**AI for QA — Starter Projects**
+
+Runnable, cloneable AI-for-QA projects: move from copy-and-paste examples to
+**clone → configure → run → extend**. Hub: [qa.codes/ai/starter-projects](https://qa.codes/ai/starter-projects).
+
+_Content libraries & runnable starters_
+
+| Repository | Focus | Stack |
+|---|---|---|
+| [`qacodes-agent-skills-starter`](https://github.com/qacodes-dev/qacodes-agent-skills-starter) | Reusable QA Agent Skills (SKILL.md) | Node, TypeScript |
+| [`qacodes-ai-qa-prompt-packs`](https://github.com/qacodes-dev/qacodes-ai-qa-prompt-packs) | Version-controlled QA prompt packs | Node, Markdown |
+| [`qacodes-playwright-mcp-testing`](https://github.com/qacodes-dev/qacodes-playwright-mcp-testing) | Playwright + MCP failure-analysis workflow | Node, Playwright, MCP |
+| [`qacodes-mcp-qa-starter`](https://github.com/qacodes-dev/qacodes-mcp-qa-starter) | Safe MCP configs & QA workflows | Node, JSON |
+| [`qacodes-rag-for-qa-starter`](https://github.com/qacodes-dev/qacodes-rag-for-qa-starter) | Local RAG over synthetic QA docs | Python |
+
+_Evaluation suites_
+
+| Repository | Focus | Stack |
+|---|---|---|
+| [`qacodes-llm-chatbot-testing`](https://github.com/qacodes-dev/qacodes-llm-chatbot-testing) | Evaluate AI chatbots (safety, hallucination, tone) | Python |
+| [`qacodes-rag-evaluation-suite`](https://github.com/qacodes-dev/qacodes-rag-evaluation-suite) | Measure a RAG (precision, groundedness) | Python |
+| [`qacodes-prompt-regression-testing`](https://github.com/qacodes-dev/qacodes-prompt-regression-testing) | Prompt format/hallucination + model regression | Python |
+
+_Reference architecture & toolkit_
+
+| Repository | Focus | Stack |
+|---|---|---|
+| [`qacodes-ai-release-risk-agent`](https://github.com/qacodes-dev/qacodes-ai-release-risk-agent) | Agentic release-risk go/no-go (human-owned) | Python |
+| [`qacodes-ai-testing-toolkit`](https://github.com/qacodes-dev/qacodes-ai-testing-toolkit) | Catalogue + CLI + shared rubrics/templates | Node, TypeScript |
+
+---
+
 ## What you can practise here
 
 | Area | Skills you can build |
@@ -183,6 +215,10 @@ flowchart TD
 | Run performance & load tests | [`qacodes-k6-performance-testing`](https://github.com/qacodes-dev/qacodes-k6-performance-testing) |
 | Load-test with Gatling | [`qacodes-gatling-load-testing`](https://github.com/qacodes-dev/qacodes-gatling-load-testing) |
 | Build a CI pipeline for automated tests | [`qacodes-github-actions-ci-pipeline`](https://github.com/qacodes-dev/qacodes-github-actions-ci-pipeline) |
+| Explore AI for QA | [`qacodes-ai-testing-toolkit`](https://github.com/qacodes-dev/qacodes-ai-testing-toolkit) |
+| Build a local RAG for QA | [`qacodes-rag-for-qa-starter`](https://github.com/qacodes-dev/qacodes-rag-for-qa-starter) |
+| Test an AI chatbot | [`qacodes-llm-chatbot-testing`](https://github.com/qacodes-dev/qacodes-llm-chatbot-testing) |
+| Assess release risk with an agent | [`qacodes-ai-release-risk-agent`](https://github.com/qacodes-dev/qacodes-ai-release-risk-agent) |
 
 ---
 
